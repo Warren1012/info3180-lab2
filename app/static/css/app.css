@@ -1,3 +1,62 @@
 body {
     padding-top: 5rem;
 }
+.container .top{
+    background-color: rgb(30, 30, 87);
+    color:white;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1em;
+  }
+
+.container .bio{
+  text-align: center;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    width: 100px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+  }
+  .follows-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .follows-container > div {
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+  }
+  
+ .username{
+      font-style: italic;
+  }
+  .btn{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .button1 {
+   background-color: orange; 
+   border-radius: 5px;
+   border: none;
+   color: white;
+   }
+
+ img{
+   padding-top:10px;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+   }
